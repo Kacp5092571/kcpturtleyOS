@@ -1,8 +1,12 @@
 function timersetup(){
-    let month = "February";
+    let month = "February"
     let year = "2026";
     let space = " "
-    let specialevent = "None";
-    let monthyear = month + space + year
-    console.log(monthyear) //change later to document.getElementById
+    let specialevent = "4 days after Valentine's";
+    let monthyear = month + space + year;
+    let fovvv = 1
+    while (fovvv === 1){
+        document.getElementById("time1").innerHTML = monthyear;
+    document.getElementById("specialthing").innerHTML = specialevent;    
+    }
     }
