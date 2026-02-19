@@ -4,9 +4,6 @@ function timersetup(){
     let space = " "
     let specialevent = "4 days after Valentine's";
     const monthyear = month + space + year;
-    let fovvv = 1
-    while (fovvv === 1){
         document.getElementById("time1").innerHTML = monthyear;
-    document.getElementById("specialthing").innerHTML = specialevent;    
-    }
+    document.getElementById("specialthing").innerHTML = specialevent;
     }
