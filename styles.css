@@ -1,3 +1,7 @@
 #settbutton{
     background-image: linear-gradient(to top, rgb(125, 125, 125), rgb(204, 201, 201));
 }
+body{
+    background-image: url(image.png);
+    font-family: "Roboto", sans-serif;
+}
