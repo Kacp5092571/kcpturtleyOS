@@ -13,3 +13,30 @@ body{
 button{
     border-radius: 10px;
 }
+@keyframes myanim{
+    0% {left: 0px; top: 0px;}
+    5% {left: 20px; top: 20px;}
+    10% {left: 40px; top: 40px;}
+    20% {left: 80px; top: 80px;}
+    25% {left: 100px; top: 80px;}
+    30% {left: 120px; top: 80px;}
+    35% {left: 140px; top: 75px;}
+    40% {left: 160px; top: 80px;}
+    45% {left: 180px; top: 85px;}
+    50% {left: 200px; top: 90px;}
+    60% {left: 240px; top: 80px;}
+    65% {left: 260px; top: 75px;}
+    70% {left: 280px; top: 85px;}
+    80% {left: 300px; top: 90px;}
+    90% {left: 360px; top: 85px;}
+    95% {left: 370px; top: 80px;}
+    96% {left: 375px; top: 76px;}
+    98% {left: 380px; top: 65px;}
+    99% {left: 385px; top:40px;}
+    100% {left: 390px; top:25px;}
+}
+
+#animcontainer{
+animation-name: myanim;
+animation-duration: 5s;
+}
