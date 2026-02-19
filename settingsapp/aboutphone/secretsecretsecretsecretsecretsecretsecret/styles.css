@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 #sausage{
-   border-radius: 50px, 40px;
+   border-radius: 50%;
    background-color: rgb(206, 95, 78);
-   align-items: center;
+   display: inline-block;
 }
