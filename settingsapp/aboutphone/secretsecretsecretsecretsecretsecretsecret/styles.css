@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+}
+#sausage{
+   border-radius: 50px, 40px;
+   background-color: rgb(206, 95, 78);
+   align-items: center;
+}
