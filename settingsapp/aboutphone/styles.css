@@ -5,5 +5,13 @@ button{
     border-radius: 15px;
     height: 150px;
     width: 550px;
-    outline-color: gray;
+    outline-color: rgb(224, 224, 224);
+}
+
+#aboutphonetitlecontainer{
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+    outline-width: 3px;
+    outline-color: rgb(255, 225, 143);
 }
