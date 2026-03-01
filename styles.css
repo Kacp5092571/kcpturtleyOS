@@ -3,6 +3,7 @@
     background-image: linear-gradient(to top, rgb(125, 125, 125), rgb(204, 201, 201));
 }
 #phonecontainer{
+    display: block;
     background-image: url(hi.png);
     background-repeat: no-repeat;
     background-position: center;
