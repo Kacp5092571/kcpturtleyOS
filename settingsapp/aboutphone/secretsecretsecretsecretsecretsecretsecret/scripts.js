@@ -1,34 +1,25 @@
 let changes = 0
-let textmessage = "SAUSAGE"
+let textmessage = "BANANA"
 function changething(){
     changes = changes + 1;
      if (changes ===1){
-      textmessage = "SAUSAGe";
+      textmessage = "BANANa";
     };
      if (changes ===2){
-      textmessage = "SAUSAge";
+      textmessage = "BANAna";
     };
      if (changes ===3){
-      textmessage = "SAUSage";
+      textmessage = "BANana";
     };
          if (changes ===4){
-      textmessage = "SAUsage";
+      textmessage = "BAnana";
     };
              if (changes ===5){
-      textmessage = "SAusage";
+      textmessage = "Banana";
     };
              if (changes ===6){
-      textmessage = "SAusage";
-    };
-         if (changes ===7){
-      textmessage = "SAusage";
-    };
-             if (changes ===8){
-      textmessage = "Sausage";
-    };
-                 if (changes ===9){
-      textmessage = "sausage";
-      alert('Sausage!');
+            textmessage = "banana";
+      alert('Banana!"');
     };
     document.getElementById('changeable').innerHTML = textmessage;
 }
