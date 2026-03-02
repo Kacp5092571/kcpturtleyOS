@@ -19,7 +19,7 @@ function changething(){
     };
              if (changes ===6){
             textmessage = "banana";
-      alert('Banana!"');
+      alert('Banana!');
     };
     document.getElementById('changeable').innerHTML = textmessage;
 }

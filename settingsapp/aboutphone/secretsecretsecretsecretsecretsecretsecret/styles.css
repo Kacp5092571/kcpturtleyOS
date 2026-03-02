@@ -2,19 +2,20 @@ body{
     background-color: black;
 }
 #sausage{
-   border-radius: 50%;
-   background-color: rgb(206, 95, 78);
+   border-radius: 50%, 25%, 50%, 25%;
+   background-color: rgb(224, 211, 20);
    display: inline-block;
    position: relative;
-   animation: myanimsausage 5s ease 0s;
+   animation: myanimsausage 2s ease 0s;
    animation-iteration-count: infinite;
 }
 
-@keyframes myanimsausage{   
+@keyframes myanimbanana{   
 0%{transform: rotate(10deg);}
 20%{transform: rotate(20deg);}
 40%{transform: rotate(30deg);}
 60%{transform: rotate(20deg);}
 80%{transform: rotate(10deg);}
-100%{transform: rotate(5deg);}
+90%{transform: rotate(5deg);}
+100%{transform: rotate(0deg);}
 }
