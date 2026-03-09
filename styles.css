@@ -14,6 +14,12 @@ body{
     width: 360px;
 }
 
+.square{
+    height: 780px;
+    width: 360px;
+    background-color: gainsboro;
+}
+
 button{
     border-radius: 10px;
     animation: myloadanim 3s ease 0s;
