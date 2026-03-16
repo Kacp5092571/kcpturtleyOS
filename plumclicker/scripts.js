@@ -1,13 +1,14 @@
 let clickss = 0    
 let timeusedorwasted = 0
 let pm = 1
-function addtheclicks(){  
+function addtheclicks(){
+  console.log("If you're seeing this, then WHY ARE YOU IN THE JAVASCRIPT CONSOLE??")  
     clickss = clickss + 1*pm;
     document.getElementById('pointsdisplay').innerHTML = clickss;   
-  if (clickss > 29){
+  if (clickss = 1000){
         alert('wow you actually spent your time doing this');
         alert('screenshot this to show off to your friends for absolutley no reason');
-        console.log(idk);
+        console.log("idk");
         console.log('wow the player did this')
   }
 setInterval(function otherotherthing(){
@@ -16,7 +17,7 @@ timeusedorwasted = timeusedorwasted + 1;
 }
 
 function dcpc(){
-if(clicks>49){
+if (clickss>49){
 pm = 2;
 }else{
   let clickslefttodc = 50-clickss;
