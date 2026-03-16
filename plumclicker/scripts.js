@@ -24,6 +24,7 @@ pm = 2;
   let clicksl2dcstr = toString(clickslefttodc);
    let space = " "
   let fullthingg = "SCAMMER. YOU HAVE" + clicksl2dcstr + space + "left to unlock double clicks."
-  alert(fullthingg)
+  let fullfullthing = fullthing + ""
+  alert(fullfullthingg)
 }
 }
