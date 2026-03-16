@@ -12,7 +12,8 @@ body{
 }
 
 .square{
-        background-image: url(hi.png);
+    position: sticky;
+    background-image: url(hi.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,6 +28,7 @@ body{
 }
 
 button{
+    position: sticky;
     border-radius: 10px;
     animation: myloadanim 4s ease 0s;
 }
