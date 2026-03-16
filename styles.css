@@ -13,6 +13,7 @@ body{
 
 .square{
     position: sticky;
+    top: 0px;
     background-image: url(hi.png);
     background-repeat: no-repeat;
     background-position: center;
