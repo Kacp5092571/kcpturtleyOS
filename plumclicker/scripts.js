@@ -19,6 +19,7 @@ timeusedorwasted = timeusedorwasted + 1;
 function dcpc(){
 if (clickss>49){
 pm = 2;
+clickss = clickss - 50
 }else{
   let clickslefttodc = 50 - clickss;
   alert("SCAMMER! You don't even have enough points for this ability. Click OK to see how much more clicks you need.")
