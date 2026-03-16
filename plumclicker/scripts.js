@@ -21,7 +21,7 @@ if (clickss>49){
 pm = 2;
 }else{
   let clickslefttodc = 50-clickss;
-  let clicksl2dcstr = str(clickslefttodc);
+  let clicksl2dcstr = toString(clickslefttodc);
    let space = " "
   let fullthingg = "SCAMMER. YOU HAVE" + clicksl2dcstr + space + "left to unlock double clicks."
   alert(fullthingg)
