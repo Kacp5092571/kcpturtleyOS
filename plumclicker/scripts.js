@@ -20,11 +20,8 @@ function dcpc(){
 if (clickss>49){
 pm = 2;
 }else{
-  let clickslefttodc = 50-clickss;
-  let clicksl2dcstr = toString(clickslefttodc);
-   let space = " "
-  let fullthingg = "SCAMMER. YOU HAVE" + clicksl2dcstr + space + "left to unlock double clicks."
-  let fullfullthing = fullthing + ""
-  alert(fullfullthingg)
+  let clickslefttodc = 50 - clickss;
+  alert("SCAMMER! You don't even have enough points for this ability. Click OK to see how much more clicks you need.")
+  alert(clickslefttodc)
 }
 }
