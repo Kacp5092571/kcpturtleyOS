@@ -1,5 +1,5 @@
 let clicks = 0;
-alert('UPDATE!')
+alert('UPDATE! Turtley OS is now im bersion 0.5! We are halfway there to version 1.0!')
 function AddClicks(){
     clicks = clicks + 1;
     console.log(clicks);
