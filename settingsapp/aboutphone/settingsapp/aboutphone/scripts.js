@@ -1,4 +1,5 @@
 let clicks = 0;
+alert('UPDATE!')
 function AddClicks(){
     clicks = clicks + 1;
     console.log(clicks);
