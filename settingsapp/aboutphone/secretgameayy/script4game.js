@@ -1,3 +1,4 @@
 function move(){
-    document.getElementById("carr").style.right = "100px"
+    let thingmoved = 100
+    document.getElementById("carr").style.right = `${thingmoved}px`
 }
