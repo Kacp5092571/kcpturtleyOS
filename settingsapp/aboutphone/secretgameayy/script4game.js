@@ -6,7 +6,7 @@ function move(){
     while (moving===1){
         document.getElementById("carr").style.right = `${thingmoved}px`;
         count = count+1;
-if (count = 40){
+if (count === 40){
 alert('CRASSHHHHH');
 }
 }
