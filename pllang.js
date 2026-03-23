@@ -1,5 +1,5 @@
 let tak = 0
-function właczpljęzyk(){
+function włączpljęzyk(){
     tak = 1;
 document.getElementById("textsettings").innerHTML = "Ustawienia";
 document.getElementById("textapptime").innerHTML = "aplikacja do czasu? (i ta aplikacja nie jest do godziny!)";
