@@ -1,5 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(116, 81, 42, 0.636);
 }
 
 #plumbutton{
@@ -7,4 +8,9 @@ body{
     border-radius: 50px;
     height:300px;
     width:300px;
+}
+
+.phonecontainer{
+height: 780px;
+width: 360px;
 }
