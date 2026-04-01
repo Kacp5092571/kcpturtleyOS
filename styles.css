@@ -30,6 +30,7 @@ body{
 
 button{
     position: sticky;
+    width:5000px;
     border-radius: 10px;
     animation: myloadanim 4s ease 0s;
 }
@@ -43,5 +44,5 @@ button{
     50%{background-color: rgb(4, 156, 216);}
     60%{background-color: rgb(38, 186, 244);}
     80%{background-color: rgb(69, 187, 234);}
-    100%{background-color: rgb(104, 204, 244);}
+    100%{background-color: rgb(0, 0, 0);}
 }
