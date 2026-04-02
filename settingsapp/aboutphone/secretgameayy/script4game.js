@@ -1,6 +1,5 @@
 let moving = 0;
 let count = 0;
-alert("It's not like you needed this anyways, right?")
 function move(){
     let thingmoved = 20;
     moving = 1

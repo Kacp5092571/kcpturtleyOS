@@ -14,13 +14,13 @@ body{
 .square{
     position: sticky;
     top: 0px;
-    background-image: url(hi.pn);
+    background-image: url(hi.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 78230px;
-    width: 362220px;
-    background-color: rgb(45, 9, 9);
+    height: 780px;
+    width: 360px;
+    background-color: rgb(13, 121, 198);
     border-radius: 15px;
     animation: myloadanim 4s ease 0s;
     align-self: start;
@@ -30,7 +30,6 @@ body{
 
 button{
     position: sticky;
-    width:5000px;
     border-radius: 10px;
     animation: myloadanim 4s ease 0s;
 }
@@ -44,5 +43,5 @@ button{
     50%{background-color: rgb(4, 156, 216);}
     60%{background-color: rgb(38, 186, 244);}
     80%{background-color: rgb(69, 187, 234);}
-    100%{background-color: rgb(0, 0, 0);}
+    100%{background-color: rgb(96, 204, 247);}
 }
