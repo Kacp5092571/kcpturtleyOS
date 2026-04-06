@@ -2,10 +2,10 @@ let secss = 0
 let letting = 0
 function timersetup(){
    if (letting === 0){
-        let month = "March"
+        let month = "April"
     let year = "2026";
     let space = " "
-    let specialevent = "St Patrick's day happened recently";
+    let specialevent = "Easter happened recently";
     const monthyear = month + space + year;
         document.getElementById("time1").innerHTML = monthyear;
     document.getElementById("specialthing").innerHTML = specialevent;
