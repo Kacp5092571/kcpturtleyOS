@@ -15,7 +15,7 @@ document.getElementById("dacable").src = "side1.png"
     }else {
       plug = 1
       document.getElementById("dacable").src = "side1.png"
-      alert('yay')  
+      document.getElementById("the text").innerHTML = "1% ⚡️"
     }
 
 }
