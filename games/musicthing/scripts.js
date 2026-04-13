@@ -1,6 +1,6 @@
 let drumactivity = 0;
-var drummy = document.getElementById=("glassbreaking.mp3");
+var x = document.getElementById=("glassbreaking.mp3");
 function drumactive(){
-drummy.play();
-setTimeout(() => drummy.pause, 5000);
+x.play();
+setTimeout(() => x.pause, 5000);
 }
