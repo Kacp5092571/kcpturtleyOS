@@ -17,9 +17,10 @@ p{
 }
 
 .squaree{
-   background-color: black;
+   background-image: linear-gradient(to top, black, rgb(36, 36, 36), rgb(56, 56, 56));
    height: 1320px;
    width:520px;
    color:white;
    border-radius: 10px;
+   align-self: center;
 }
