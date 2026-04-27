@@ -12,6 +12,10 @@ button{
     border-color:white;
 }
 
+p{
+    color:white;
+}
+
 .squaree{
    background-color: black;
    height: 1320px;
