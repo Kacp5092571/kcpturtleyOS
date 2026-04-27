@@ -1,1 +1,0 @@
-alert("So, you typed the link and thought you would succeed? (you will)")
