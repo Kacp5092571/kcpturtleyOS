@@ -11,6 +11,7 @@ body{
 }
 
 .phonecontainer{
-height: 780px;
-width: 360px;
+height: 1780px;
+width: 560px;
+background-color: rgb(160, 160, 160);
 }
