@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    display: inline;
 }
 
 @keyframes parloadanim{
@@ -18,4 +19,7 @@ body{
 
 p{
     animation: parloadanim 4s ease 0s;
+    display: inline;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
