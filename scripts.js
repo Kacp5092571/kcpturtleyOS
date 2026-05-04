@@ -1,0 +1,1 @@
+window.location.href='https://kacp5092571.github.io/kcpturtleyOS/startup/'
