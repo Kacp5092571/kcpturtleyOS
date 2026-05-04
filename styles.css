@@ -1,25 +1,47 @@
+#settbutton{
+    animation: myloadanim 5s ease 0s;
+    background-image: linear-gradient(to top, rgb(125, 125, 125), rgb(204, 201, 201));
+}
 body{
-    background-color: black;
-    display: inline;
+
+    font-family: "Roboto", sans-serif;
+    animation: myloadanim 5s ease 0s;
+    border-radius: 8px;
+    height: 7080px;
+    width: 3160px;
 }
 
-@keyframes parloadanim{
-    0%{color:black}
-    10%{color:rgb(15, 15, 15)};
-    20%{color:rgb(28, 28, 28)};
-    30%{color: rgb(45, 45, 45)};
-    40%{color: rgb(60, 60, 60)};
-    50%{color: rgb(80, 80, 80)};
-    60%{color: rgb(95, 95, 95)};
-    70%{color: rgb(105, 105, 105)};
-    80%{color: rgb(120, 120, 120)}
-    90%{color: rgb(218, 218, 218)}
-    100%{color: white}
+.square{
+    position: sticky;
+    top: 0px;
+    background-image: url(hi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1380px;
+    width: 520px;
+    background-color: rgb(13, 121, 198);
+    border-radius: 15px;
+    animation: myloadanim 4s ease 0s;
+    align-self: center;
+  align-items: start;
+    text-align: start;
 }
 
-p{
-    animation: parloadanim 4s ease 0s;
-    display: inline;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+button{
+    position: sticky;
+    border-radius: 10px;
+    animation: myloadanim 4s ease 0s;
+}
+
+@keyframes myloadanim{
+    0%{background-color: rgb(0, 0, 0); background-image: url();}
+    10%{background-color: rgb(0, 27, 38);}
+    20% {background-color: rgb(1, 53, 74);}
+    30%{background-color: rgb(3, 92, 127);}
+    40%{background-color: rgb(3, 105, 146);}
+    50%{background-color: rgb(4, 156, 216);}
+    60%{background-color: rgb(38, 186, 244);}
+    80%{background-color: rgb(69, 187, 234);}
+    100%{background-color: rgb(96, 204, 247);}
 }
