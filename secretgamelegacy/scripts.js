@@ -1,4 +1,3 @@
-
 let changes = 0
 let textmessage = "BANANA"
 function changething(){
