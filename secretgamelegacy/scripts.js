@@ -1,7 +1,7 @@
 let changes = 0
 let textmessage = "BANANA"
 function changething(){
-    let keypro = alert("Access key?")
+    let keypro = prompt("Access key?")
 if (keypro !== "02OG"){
   alert("Wrong. Restarting software...")
   window.location.href='https://kacp5092571.github.io/kcpturtleyOS/startup/'
