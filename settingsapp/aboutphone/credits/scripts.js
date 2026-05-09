@@ -12,7 +12,7 @@ if (devtools === 1){
       }
      }
      if (choice === "b"){
-      alert("Loading system files...")
+      alert("Loading system files... (access key is 02OG")
       window.location.href='https://kacp5092571.github.io/kcpturtleyOS/secretgamelegacy/'
       alert('Complete!')
      }
