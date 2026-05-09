@@ -1,12 +1,13 @@
-let keypro = alert("Access key?")
+
+let changes = 0
+let textmessage = "BANANA"
+function changething(){
+    let keypro = alert("Access key?")
 if (keypro !== "02OG"){
   alert("Wrong. Restarting software...")
   window.location.href='https://kacp5092571.github.io/kcpturtleyOS/startup/'
 }
-let changes = 0
-let textmessage = "BANANA"
-function changething(){
-    changes = changes + 1;
+changes = changes + 1;
      if (changes ===1){
       textmessage = "BANANa";
     };
