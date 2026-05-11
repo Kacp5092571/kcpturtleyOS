@@ -1,0 +1,13 @@
+body{
+background-color: black;
+}
+
+button{
+    border-radius: 15px;
+    background-color: rgba(120, 178, 255, 0.233);
+    color: white;
+}
+
+p{
+    color:white;
+}
