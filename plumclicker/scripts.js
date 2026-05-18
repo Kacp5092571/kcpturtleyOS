@@ -13,8 +13,11 @@ function addtheclicks(){
   }
 setInterval(function otherotherthing(){
 timeusedorwasted = timeusedorwasted + 1;
-}, 1000)  
-}
+}, 1000) ;
+
+if(clickss < 0){
+  clickss = 0;
+};
 
 function dcpc(){
 if (clickss > 49){
@@ -26,4 +29,7 @@ pm = pm+2;
   alert(clickslefttodc)
 }
 clickss = clickss - 50
+document.getElementById('pointsdisplay').innerHTML = clickss
+
+}
 }
