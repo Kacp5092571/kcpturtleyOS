@@ -5,7 +5,7 @@ function biggamestext(){
 let secl = 0
 document.addEventListener('keydown', event)
 
-if(event.key=== 'ArrowDown'){
+function down(){
     secl = secl + 1
     if (secl===1){
         document.getElementById("hi").style.fontSize = "30px"
