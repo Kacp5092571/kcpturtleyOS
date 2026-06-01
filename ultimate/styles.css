@@ -1,6 +1,24 @@
+@import url('https://googleapis.com');
+
 .rectangle{
     width: 1000px;
     height: 600px;
     background-image: url(bgbetter.png);
     background-color: skyblue;
+}
+
+#androidegg{
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+#gamecbt{
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+#pluclibt{
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+button{
+    font-family: 'Orbitron', sans-serif;
 }
