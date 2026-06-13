@@ -21,7 +21,7 @@ if (secl===3){
     document.getElementById("hi3").style.fontSize = "16px";
 }
 if (secl===4){
-    secl=1
+    secl=0
 }
         }
     }
