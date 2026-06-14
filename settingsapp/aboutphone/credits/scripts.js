@@ -8,8 +8,7 @@ if (devtools === 1){
         document.getElementById("hi").style.backgroundColor = "purple";
        if (thing = "b"){
         document.getElementById("hi").style.backgroundColor = "honeydew"
-      }
-      }
+      }
      }
      if (choice === "b"){
       alert("Loading system files... (access key is 02OG")
