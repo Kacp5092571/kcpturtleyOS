@@ -24,7 +24,7 @@ function usespeedboost(){
     if(speedboost === 1){
          distance = distance + paddle * 70
          alert('zooooooooom')
-         document.getElementById("spbstxt").innerHTML = "-"
+         document.getElementById("spbstxt").innerHTML = "none"
     }else{
         alert('nope')
     }
