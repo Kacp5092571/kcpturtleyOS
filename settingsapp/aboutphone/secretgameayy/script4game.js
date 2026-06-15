@@ -6,7 +6,7 @@ const countries = ["poland", "warsaw", "gdansk", "mazury", "bialystok"]
 
 function paddles(){
 distance = distance + paddle
-document.getElementById("paddle").innerHTML = distance
+document.getElementById("disshow").innerHTML = distance
 if (distance===200){
     alert('SPEED BOOSTER found! Press OK to continue.')
     speedboost = 1
