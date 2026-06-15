@@ -1,12 +1,12 @@
 let moving = 10
-let distanceee = 0
+let distancee = 0
 let paddle = 2
 let speedboost = 0
 const countries = ["poland", "warsaw", "gdansk", "mazury", "bialystok"]
 
 function paddles(){
-distanceee = distanceee + paddle
-document.getElementById("disshow").innerHTML = distanceee
+distancee = distancee + paddle
+document.getElementById("disshow").innerHTML = distancee
 if (distancee===200){
     alert('SPEED BOOSTER found! Press OK to continue.')
     speedboost = 1
