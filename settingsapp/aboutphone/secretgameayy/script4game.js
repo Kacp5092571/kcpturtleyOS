@@ -4,7 +4,7 @@ let paddle = 2
 let speedboost = 0
 const countries = ["poland", "warsaw", "gdansk", "mazury", "bialystok"]
 
-function paddle(){
+function paddles(){
 distance = distance + paddle
 document.getElementById("paddle").innerHTML = distance
 if (distance===200){
