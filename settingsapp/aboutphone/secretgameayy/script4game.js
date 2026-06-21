@@ -29,7 +29,6 @@ function usespeedboost(){
     if(speedboost === 1){
          distancee = distancee + paddle * 70
          document.getElementById("disshow").innerHTML = distancee
-         alert('zooooooooom')
          document.getElementById("spbstxt").innerHTML = "none"
     }else{
         alert('nope')
