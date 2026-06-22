@@ -24,4 +24,8 @@ button{
     display: inline;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.363);
-    }
+}
+
+.spacing, .spacing2, .spacing3{
+    padding-right: 40px;
+}
