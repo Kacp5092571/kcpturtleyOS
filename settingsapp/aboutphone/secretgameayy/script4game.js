@@ -44,7 +44,7 @@ function usespeedboost(){
 
 function cheatcodes(){
     let codes = prompt("Cheat codes?")
-    if (codes==="distance+"){
+    if (codes==="distanceplus"){
 distancee = distancee + 500
     }
 
