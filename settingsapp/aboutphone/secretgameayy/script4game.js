@@ -3,16 +3,18 @@ let distancee = 0
 let paddle = 2
 let speedboost = 0
 const countries = ["poland", "warsaw", "gdansk", "mazury", "bialystok"]
+let random = Math.floor(Math.random() * 180)
+let random2 = Math.floor(Math.random() * 360)
 
 function paddles(){
 distancee = distancee + paddle
 document.getElementById("disshow").innerHTML = distancee
-if (distancee===100){
+if (distancee===random){
     alert('SPEED BOOSTER found! Press OK to continue.')
     speedboost = 1
     document.getElementById("spbstxt").innerHTML = "Speed booster"
 }
-if (distancee===250){
+if (distancee===random2){
     alert('SPEED BOOSTER found! Press OK to continue.')
     speedboost = 1
     document.getElementById("spbstxt").innerHTML = "Speed booster"
