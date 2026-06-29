@@ -4,7 +4,7 @@ let paddle = 2
 let speedboost = 0
 const countries = ["poland", "warsaw", "gdansk", "mazury", "bialystok"]
 let random = Math.floor(Math.random() * 180)
-let random2 = Math.floor(Math.random() * 360)
+let random2 = Math.floor(Math.random() * 360) + 150
 
 function paddles(){
 distancee = distancee + paddle
