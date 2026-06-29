@@ -1,10 +1,10 @@
 let moving = 10
 let distancee = 0
-let paddle = 2
+let paddle = 1
 let speedboost = 0
 const countries = ["poland", "warsaw", "gdansk", "mazury", "bialystok"]
 let random = Math.floor(Math.random() * 180)
-let random2 = Math.floor(Math.random() * 360) + 150
+let random2 = Math.floor(Math.random() * 360)
 
 function paddles(){
 distancee = distancee + paddle
@@ -25,6 +25,11 @@ document.getElementById("mainbody").style.backgroundColor = "skyblue"
 if (distancee===2000){
     document.getElementById("mainbody").style.backgroundColor = "darkblue"
 }
+const myTimeout = setTimeout(paddlepart2(), 600)
+}
+
+function paddlepart2(){
+    distancee = distancee + paddle
 }
 
 function usespeedboost(){
