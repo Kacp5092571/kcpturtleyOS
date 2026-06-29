@@ -1,5 +1,6 @@
 body{
     background-color: powderblue;
+    align-items: center;
 }
 
 .sailboat{
@@ -8,4 +9,5 @@ body{
 
 .items{
     background-color: rgb(120, 71, 39);
+    width:800px;
 }
