@@ -41,3 +41,14 @@ function usespeedboost(){
         alert('nope')
     }
 }
+
+function cheatcodes(){
+    let codes = prompt("Cheat codes?")
+    if (codes==="distance+"){
+distancee = distancee + 500
+    }
+
+    if (codes==="paddleop"){
+        paddle = 20
+    }
+}
