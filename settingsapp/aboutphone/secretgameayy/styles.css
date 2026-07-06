@@ -5,6 +5,7 @@ body{
 
 .sailboat{
 alt:"boat";
+transform: rotate(0deg);
 }
 
 .items{
