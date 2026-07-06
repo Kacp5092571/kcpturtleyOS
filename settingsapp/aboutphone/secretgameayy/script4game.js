@@ -5,7 +5,7 @@ let side = "right"
 let sidecount = 0
 let deggs = 60
 let deggsback = 210
-let degdis = 0
+let degdisss = 0
 let speedboost = 0
 const countries = ["poland", "warsaw", "gdansk", "mazury", "bialystok"]
 let random = Math.floor(Math.random() * 180)
@@ -16,7 +16,7 @@ distancee = distancee + paddle
 sidecount = sidecount + 1
 degdis = degdis + 60
 document.getElementById("disshow").innerHTML = distancee
-document.getElementById("degshow").innerHTML = degdis
+document.getElementById("degshow").innerHTML = degdisss
 document.getElementById("salilboat").style.transform =`rotate${deggs}deg`
 if (distancee===random){
     alert('SPEED BOOSTER found! Press OK to continue.')
