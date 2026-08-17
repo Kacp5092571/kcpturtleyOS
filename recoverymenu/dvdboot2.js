@@ -1,4 +1,4 @@
-function newdevice(){
+function newdeviceplug(){
 let thing = prompt("New Device Wizard, continue? (Y/N)")
 if (thing==="Y"){
     let thing2 = prompt("Would you like to insert "TURTLEYOS" DVD drive? (Y/N)")
