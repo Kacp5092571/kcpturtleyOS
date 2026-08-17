@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Turtley OS rel</title>
+<link rel="icon" type="image/x-icon" href="">
+<style>
+    body{
+        background-color: rgb(65, 133, 240);
+    }
+
+    button{
+        background-color:rgba(112, 181, 235, 0.32);
+    color:white;  
+    }
+</style>
+
+
+<script>
+   function dvdboot1(){
+    alert("DVD NAME: turtleystore")
+    alert("NOW BOOTING...")
+window.location.href='https://kacp5092571.github.io/kcpturtleyOS/turtleyOSappinstall'
+   } 
+</script>
+<script src="dvdboot2.js"></script>
+    </head>
+    <body>
+        <h1 style="color:white;">Turtley OS Recovery</h1>
+        <button onclick >Attempt Reboot</button>
+        <br>
+        <button onclick="dvdboot1()">
+            <img src="dvdlogo.png" width="100" height="100"> Boot from DVD 1</button>
+            <button onclick="dvdboot2()"><img src="dvdlogo.png" width="100" height="100">Insert new device</button>
+    </body>
+</html>
