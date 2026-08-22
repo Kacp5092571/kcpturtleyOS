@@ -7,8 +7,6 @@ body{
     font-family: "Roboto", sans-serif;
     animation: myloadanim 5s ease 0s;
     border-radius: 8px;
-    height: 7080px;
-    width: 3160px;
 }
 
 .square{
