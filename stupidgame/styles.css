@@ -1,3 +1,6 @@
 button{
     background-color: rgb(219, 171, 13);
 }
+body{
+    background-image: linear-gradient(to top, rgb(0, 110, 255), rgb(0, 129, 214));
+}

@@ -21,3 +21,7 @@ function crashyay(){
     document.write("LOSER")
     crashyay()
 }
+
+function yapperyes(){
+    document.getElementById("yapper").style.display = "block"
+}
