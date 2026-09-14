@@ -1,7 +1,7 @@
 function catwowWOW(){
-    document.getElementById("catbruh").style.display = "block"
+    document.getElementById("catbruh").style.display = "block@
 }
 
 function rickrolling(){
-    
+
 }
