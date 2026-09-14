@@ -18,7 +18,6 @@ function win(){
 }
 
 function crashyay(){
-    alert("click if you hate yourself")
     document.write("LOSER")
     crashyay()
 }
